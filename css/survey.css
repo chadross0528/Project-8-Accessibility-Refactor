@@ -42,6 +42,24 @@ button:focus {
 
 }
 
+select#albums,
+textarea#text,
+input#name,
+input#email,
+input#retype {
+  border-radius: 10px;
+  border-style: inset;
+}
+
+select#albums:focus,
+textarea#text:focus,
+input#name:focus,
+input#email:focus,
+input#retype:focus {
+  border-color: hsl(351, 101%, 67%);
+  border-width: 3px;
+}
+
 
 /* Styles for larger screens */
 @media screen and (min-width: 840px) {
